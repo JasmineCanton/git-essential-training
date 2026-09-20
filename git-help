@@ -98,7 +98,15 @@ git log --grep='<string>'
 -- visual of changes incl. branches
 git log --graph
 
-##### 
+##### Go back in history ##### 
+git log --online 
+-- view historical/detached head state
+git checkout <commit id/checksum>
+-- go to current state
+git checkout <branchname>
+
+##### Revert a commit ##### 
+git revert <commit id/checksum>
 
 
 
