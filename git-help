@@ -73,14 +73,43 @@ git status
 ##### Commit a file in local #####
 git commit -m "detail of commit"
 
-##### Push file in remote repository #####
+##### Push file to remote repository #####
 git push 
 
 ##### Pull from repository #####
 git pull
 
+##### Rename files #####
+git mv <oldfilename> <newfilename>
 
-##### undo changes #####
+##### Undo changes #####
 git restore --staged <Foldername/filename.ext>
+
+##### View commit history #####
+git log
+-- show log summary
+git log --oneline
+-- show all changes
+git show <commit id/checksum>
+-- show actual change
+git log -p
+-- search commit messages
+git log --grep='<string>'
+-- visual of changes incl. branches
+git log --graph
+
+##### 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
