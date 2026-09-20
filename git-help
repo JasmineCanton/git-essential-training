@@ -38,6 +38,7 @@ examine the history and state (see also: git help revisions)
           -p shows actual changes
           --grep='Example' shows all commits to *Example* files
           --graph shows branches
+          --oneLine shows log summary
    show       Show various types of objects (git show <checksum from log>
    status     Show the working tree status
 
@@ -61,3 +62,6 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+
+# undo changes 
+git restore --staged <Foldername/filename.ext>
