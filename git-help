@@ -63,5 +63,24 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 
-# undo changes 
+##### Create a file and stage it #####
+git add <filename>
+-- stages all files in the directory
+git add .
+-- see status
+git status
+
+##### Commit a file in local #####
+git commit -m "detail of commit"
+
+##### Push file in remote repository #####
+git push 
+
+##### Pull from repository #####
+git pull
+
+
+##### undo changes #####
 git restore --staged <Foldername/filename.ext>
+
+
