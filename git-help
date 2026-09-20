@@ -114,6 +114,16 @@ edit .gitignore file and add filenames, folders (foldername/), wildcards (*) to 
 -- foldername/
 -- foldername/*.log
 
+##### Commit message #####
+-- to document bulk message
+git commit
+
+##### Merge #####
+-- from local
+git pull
+-- triggers merge
+git pull.rebase false
+
 
 
 
