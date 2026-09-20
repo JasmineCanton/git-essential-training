@@ -109,8 +109,10 @@ git checkout <branchname>
 git revert <commit id/checksum>
  
 ##### Ignore files #####
-edit .gitignore file and add filenames, folders, wildcards (*) to be ignored
-
+edit .gitignore file and add filenames, folders (foldername/), wildcards (*) to be ignored
+-- filename
+-- foldername/
+-- foldername/*.log
 
 
 
